@@ -71,8 +71,8 @@ Z_LED_HEIGHT = 12;
 //------------------------------------------------
 // Button
 
-X_BUTTON_LEN = 6.5;
-Y_BUTTON_LEN = 6.5;
+X_BUTTON_LEN = 6.4;
+Y_BUTTON_LEN = 6.4;
 X_BUTTON_GAP = 0.25;
 Y_BUTTON_GAP = 0.25;
 

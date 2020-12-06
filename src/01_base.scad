@@ -55,12 +55,16 @@ SCREW_DISTANCE_X = 43.9;
 
 //------------------------------------------------
 // Screw sizes (M3)
-
 SCREW_RADIUS = 1.5;
 Z_SCREW_LEN = 19;
 Z_SCREW_HEAD_LEN = 4.0;
 SCREW_HEAD_RADIUS = 2.85;
 SCREW_HEAD_RADIUS_GAP = 0.1;
+
+//------------------------------------------------
+// Ring holder
+RING_HOLDER_RADIUS_OUTER = 6;
+RING_HOLDER_RADIUS_INNER = 4;
 
 //------------------------------------------------
 // Actual script
@@ -100,6 +104,14 @@ difference() {
                 cylinder(h = CYLINDER_HEIGHT, r = CYLINDER_RADIUS + CYLINDER_THICKNESS);
             }
         }
+        
+        // holding ring
+        translate([x_len_outer/2, 0, 0])
+        difference() {
+            cylinder(h = BASE_THICKNESS_SCREWS, r = RING_HOLDER_RADIUS_OUTER);
+            cylinder(h = BASE_THICKNESS_SCREWS + POCKET_TOLERANCE, r = RING_HOLDER_RADIUS_INNER);
+        }
+        
     }
     // screw head holes
     for (j = [0:1]) {
