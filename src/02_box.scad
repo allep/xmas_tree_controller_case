@@ -36,7 +36,7 @@ POCKET_TOLERANCE = 0.1;
 
 // Inner sizes: outer size will be increased by
 // the wall thickness.
-Z_LEN = 58;
+Z_LEN = 63;
 
 WALL_THICKNESS = 1.2;
 BASE_THICKNESS = 1.2;
