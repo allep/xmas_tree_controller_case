@@ -45,13 +45,13 @@ CYLINDER_RADIUS = 1.575;
 CYLINDER_HEIGHT = 4.75;
 
 // tolerances
-CYLINDER_GAP = 1.0;
+CYLINDER_GAP = 2.0;
 
 //------------------------------------------------
 // Board size
 // Based on NodeMCU Amica ESP-8266 board.
-SCREW_DISTANCE_Y = 70.0;
-SCREW_DISTANCE_X = 45.0;
+SCREW_DISTANCE_Y = 67.8;
+SCREW_DISTANCE_X = 43.9;
 
 //------------------------------------------------
 // Screw sizes (M3)

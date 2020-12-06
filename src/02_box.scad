@@ -47,7 +47,7 @@ CYLINDER_THICKNESS = 0.8;
 CYLINDER_RADIUS = 1.575;
 
 // tolerances
-CYLINDER_GAP = 1.0;
+CYLINDER_GAP = 2.0;
 
 //------------------------------------------------
 // Board size
@@ -55,8 +55,8 @@ BOARD_THICKNESS = 2.0;
 BOARD_HEIGHT = 6.75; // including clearence
 
 // Prototyping board size: 50*75mm
-SCREW_DISTANCE_Y = 70.0;
-SCREW_DISTANCE_X = 45.0;
+SCREW_DISTANCE_Y = 67.8;
+SCREW_DISTANCE_X = 43.9;
 
 // Voltage supply port
 X_VSUPPLY_DISP = 8;
